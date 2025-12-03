@@ -36,7 +36,14 @@ Two variants are provided:
 - **Unweighted AE** – standard reconstruction loss over the whole image.
 - **Weighted AE (v2)** – reconstruction loss is **spatially weighted** using a GLCM-derived low-texture mask so the model focuses on the cytoplasmic interior where strings occur.
 
-## Dataset Layout
+---
+
+## 📂 Dataset Layout
+
+Your dataset should be organized as follows:
+
+
+
 cs_strings_dataset/
 ├── train/
 │ └── normal/
@@ -46,6 +53,9 @@ cs_strings_dataset/
 └── test/
 ├── normal/
 └── abnormal/
+
+Place `cs_strings_dataset/` in the repo root or pass `--data-root` explicitly
+when running the scripts.
 
 ## Tested with:
 
