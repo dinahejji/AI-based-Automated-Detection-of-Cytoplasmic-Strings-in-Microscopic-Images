@@ -68,7 +68,7 @@ You can read the full details in our paper:
 
 👉 [Full paper (PDF)]
 
-## Running the Unweighted Autoencoder
+## Running the Autoencoder
 
 To run the unweighted autoencoder script, simply execute:
 
