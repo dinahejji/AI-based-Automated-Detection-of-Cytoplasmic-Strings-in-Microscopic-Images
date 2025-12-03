@@ -22,12 +22,6 @@ The repository includes:
 
 This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
 
-
----
-## Tested with:
-
-- Python 3.9+  
-- PyTorch (GPU preferred)
 ---
 
 For the convolutional autoencoder (AE)–based anomaly detector for **cytoplasmic string (CS)** classification in human embryo images.
@@ -60,6 +54,11 @@ cs_strings_dataset/
     ├── normal/
     └── abnormal/
 ```
+
+## Tested with:
+
+- Python 3.9+  
+- PyTorch (GPU preferred)
 
 
 
