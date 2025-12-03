@@ -33,7 +33,7 @@ The key idea is:
 
 Two variants are provided:
 
-- **Unweighted AE** – 
+- **Unweighted AE** – unweighted reconstruction loss over the whole image.
 - **Weighted AE (v2)** – reconstruction loss is **spatially weighted** using a GLCM-derived low-texture mask so the model focuses on the cytoplasmic interior where strings occur.
 
 ---
