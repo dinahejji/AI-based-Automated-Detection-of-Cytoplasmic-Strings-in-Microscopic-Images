@@ -62,6 +62,11 @@ cs_strings_dataset/
 - PyTorch (GPU preferred)
 
 
+---
+
+You can read the full details in our paper:
+
+👉 [Full paper (PDF)]
 
 
 
