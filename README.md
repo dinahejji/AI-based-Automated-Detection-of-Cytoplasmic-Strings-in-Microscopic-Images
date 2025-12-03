@@ -38,15 +38,12 @@ Two variants are provided:
 
 ---
 
+```text
+
 ## 📂 Dataset Layout
 
 Your dataset should be organized as follows:
 
-
-```markdown
-## Dataset Layout
-
-```text
 cs_strings_dataset/
 ├── train/
 │   └── normal/
@@ -56,7 +53,7 @@ cs_strings_dataset/
 └── test/
     ├── normal/
     └── abnormal/
-
+---
 ## Tested with:
 
 - Python 3.9+  
