@@ -19,6 +19,7 @@ The repository includes:
 - scripts for **region proposal generation and embedding extraction**,  
 - the weakly supervised **region-scoring network**,  
 - inference utilities and visualization tools for qualitative analysis.
+- GUI for the framework along with a demo video
 
 This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
 
