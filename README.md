@@ -227,5 +227,5 @@ It’s designed to be friendly, visual, and perfect for demonstrating your model
 Launch Streamlit:
 
 ```
-streamlit run app_streamlit.py
+streamlit run inference_app.py
 ```
