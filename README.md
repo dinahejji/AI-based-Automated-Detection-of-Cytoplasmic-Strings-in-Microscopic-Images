@@ -12,3 +12,12 @@ On top of the filtered frames, CS detection is formulated as a region-based, wea
 
 Together, these two components form an efficient, scalable pipeline for CS screening and localization under real-world clinical constraints, where ground truth is scarce, CS appearance is highly variable, and processing speed is critical.
 
+
+
+The repository includes:
+- code for training and evaluating both **weighted and unweighted autoencoders**,  
+- scripts for **region proposal generation and embedding extraction**,  
+- the weakly supervised **region-scoring network**,  
+- inference utilities and visualization tools for qualitative analysis.
+
+This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
