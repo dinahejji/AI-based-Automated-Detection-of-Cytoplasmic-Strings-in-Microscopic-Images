@@ -43,16 +43,16 @@ Two variants are provided:
 Your dataset should be organized as follows:
 
 
-
+```text
 cs_strings_dataset/
 ├── train/
-│ └── normal/
+│   └── normal/
 ├── val/
-│ ├── normal/
-│ └── abnormal/
+│   ├── normal/
+│   └── abnormal/
 └── test/
-├── normal/
-└── abnormal/
+    ├── normal/
+    └── abnormal/
 
 Place `cs_strings_dataset/` in the repo root or pass `--data-root` explicitly
 when running the scripts.
