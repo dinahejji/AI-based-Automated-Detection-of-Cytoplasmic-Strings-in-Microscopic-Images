@@ -22,7 +22,7 @@ The repository includes:
 
 This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
 
-==========================================================================
+---
 
 For the convolutional autoencoder (AE)–based anomaly detector for **cytoplasmic string (CS)** classification in human embryo images.
 
