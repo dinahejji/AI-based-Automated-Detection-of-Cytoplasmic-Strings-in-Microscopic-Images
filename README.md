@@ -68,5 +68,16 @@ You can read the full details in our paper:
 
 👉 [Full paper (PDF)]
 
+## Running the Unweighted Autoencoder
 
+To run the unweighted autoencoder script, simply execute:
 
+```
+python unweighted_AE.py
+```
+
+To run the weighted autoencoder script, simply execute:
+
+```
+python weighted_AE.py
+```
