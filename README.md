@@ -12,7 +12,7 @@ On top of the filtered frames, CS detection is formulated as a region-based, wea
 
 Together, these two components form an efficient, scalable pipeline for CS screening and localization under real-world clinical constraints, where ground truth is scarce, CS appearance is highly variable, and processing speed is critical.
 
-<iframe width="560" height="315" src="https://youtu.be/0OcU0-dwSpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/0OcU0-dwSpE/maxresdefault.jpg)](https://youtu.be/0OcU0-dwSpE)
 
 The repository includes:
 
