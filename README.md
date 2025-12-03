@@ -53,7 +53,7 @@ cs_strings_dataset/
 └── test/
     ├── normal/
     └── abnormal/
-'''
+```
 Place `cs_strings_dataset/` in the repo root or pass `--data-root` explicitly
 when running the scripts.
 
