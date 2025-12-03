@@ -5,4 +5,4 @@ This repository contains the full pipeline developed for the detection of cytopl
 Our approach consists of two complementary stages:
 
 **1. Autoencoder-based Classification Filter.**  
-A lightweight convolutional autoencoder (AE) is trained exclusively on string-free embryo images to model the appearance of normal cytoplasm. During inference, reconstruction errors—measured inside the smooth cytoplasmic interior, serve as anomaly scores. This stage acts as a *coarse filter* that flag frames likely to contain CS, significantly reducing downstream workload and improving robustness under class imbalance.
+A lightweight convolutional autoencoder (AE) is trained exclusively on string-free embryo images to model the appearance of normal cytoplasm. During inference, reconstruction errors,measured inside the smooth cytoplasmic interior, serve as anomaly scores. This stage acts as a *coarse filter* that flag frames likely to contain CS, significantly reducing downstream workload and improving robustness under class imbalance.
