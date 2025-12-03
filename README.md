@@ -49,7 +49,7 @@ Two variants are provided:
 
 Your dataset should be organized as follows:
 
-```text
+```
 cs_strings_dataset/
 ├── train/
 │   └── normal/
@@ -59,7 +59,7 @@ cs_strings_dataset/
 └── test/
     ├── normal/
     └── abnormal/
-
+```
 
 
 
