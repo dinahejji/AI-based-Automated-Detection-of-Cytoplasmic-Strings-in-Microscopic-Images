@@ -22,7 +22,7 @@ The repository includes:
 
 This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
 
-========================================================================================================
+==========================================================================
 
 For the convolutional autoencoder (AE)–based anomaly detector for **cytoplasmic string (CS)** classification in human embryo images.
 
@@ -39,13 +39,13 @@ Two variants are provided:
 ## Dataset Layout
 cs_strings_dataset/
 ├── train/
-│   └── normal/            # training images (string-free only)
+│ └── normal/
 ├── val/
-│   ├── normal/            # validation normals
-│   └── abnormal/          # validation with CS
+│ ├── normal/
+│ └── abnormal/
 └── test/
-    ├── normal/            # test normals
-    └── abnormal/          # test with CS
+├── normal/
+└── abnormal/
 
 ## Tested with:
 
