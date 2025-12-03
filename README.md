@@ -22,6 +22,13 @@ The repository includes:
 
 This README provides a full guide on installation, dataset setup, training, evaluation, and visualization.
 
+
+---
+## Tested with:
+
+- Python 3.9+  
+- PyTorch (GPU preferred)
+- 
 ---
 
 For the convolutional autoencoder (AE)–based anomaly detector for **cytoplasmic string (CS)** classification in human embryo images.
@@ -33,12 +40,11 @@ The key idea is:
 
 Two variants are provided:
 
-- **Unweighted AE** – standard reconstruction loss over the whole image.
+- **Unweighted AE** – 
 - **Weighted AE (v2)** – reconstruction loss is **spatially weighted** using a GLCM-derived low-texture mask so the model focuses on the cytoplasmic interior where strings occur.
 
 ---
 
-```text
 
 ## 📂 Dataset Layout
 
@@ -53,11 +59,8 @@ cs_strings_dataset/
 └── test/
     ├── normal/
     └── abnormal/
----
-## Tested with:
 
-- Python 3.9+  
-- PyTorch (GPU preferred)  
+
 
 
 
